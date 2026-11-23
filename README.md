@@ -35,7 +35,7 @@ Fill these before going live:
 |------|--------|
 | **Street address** | `site.address` in `src/lib/content.ts` (also JSON-LD TODO in `layout.tsx`) |
 | **Business hours** | `site.hours` in `src/lib/content.ts` |
-| **Real photos** | Replace Unsplash URLs in `hero`, `services`, and `galleryItems` |
+| **Real photos** | Replace files in `public/images/` (paths are set in `src/lib/content.ts`) |
 | **Logo asset** | Currently a typographic wordmark; add SVG/PNG under `public/` if desired |
 | **Map embed** | Contact section map placeholder (`[Add map embed]`) |
 | **Form backend** | Contact form stubs with `console.log` — wire Formspree or your API (see TODO in `Contact.tsx`) |

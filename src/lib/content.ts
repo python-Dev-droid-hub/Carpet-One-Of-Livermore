@@ -23,7 +23,7 @@ export const seo = {
   title: "Carpet & Flooring in Livermore, CA | Carpet One of Livermore",
   description:
     "Carpet One of Livermore offers Bioplanks, carpet tile, and quality flooring for homes and businesses in Livermore, California. Request a free quote today.",
-  ogImage: "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=1200&q=80",
+  ogImage: "/images/hero-primary.jpg",
 };
 
 export const nav = [
@@ -51,11 +51,11 @@ export const about = {
   ],
   images: {
     primary: {
-      src: "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1200&q=80",
+      src: "/images/about-primary.jpg",
       alt: "Bright living room with warm wood-look flooring and soft natural light",
     },
     secondary: {
-      src: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      src: "/images/about-secondary.jpg",
       alt: "Modern interior living space with refined flooring detail",
     },
   },
@@ -103,11 +103,11 @@ export const hero = {
   trustItems: ["Bioplanks", "Carpet Tile", "Local Livermore Showroom"],
   images: {
     primary: {
-      src: "https://images.unsplash.com/photo-1615874959474-d609969a20ed?w=1200&q=80",
+      src: "/images/hero-primary.jpg",
       alt: "Bright living room with warm wood-look flooring and natural light",
     },
     secondary: {
-      src: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80",
+      src: "/images/hero-secondary.jpg",
       alt: "Modern interior with layered textiles and refined flooring detail",
     },
   },
@@ -123,7 +123,7 @@ export const services = [
     benefits: ["Durable", "Easy to maintain", "Stylish"],
     cta: { label: "Learn more / Get a quote", href: "#contact" },
     image: {
-      src: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1000&q=80",
+      src: "/images/service-bioplanks.jpg",
       alt: "Close view of warm plank flooring in a contemporary living space",
     },
   },
@@ -136,7 +136,7 @@ export const services = [
     benefits: ["Durable", "Easy to maintain", "Stylish"],
     cta: { label: "Learn more / Get a quote", href: "#contact" },
     image: {
-      src: "https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=1000&q=80",
+      src: "/images/service-carpet-tile.jpg",
       alt: "Soft carpeted seating area with layered texture and calm neutrals",
     },
   },
@@ -160,37 +160,37 @@ export const galleryItems = [
   {
     id: "g1",
     category: "bioplanks" as const,
-    src: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=900&q=80",
+    src: "/images/gallery-1.jpg",
     alt: "Open living room with continuous plank flooring and soft seating",
   },
   {
     id: "g2",
     category: "carpet-tile" as const,
-    src: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80",
+    src: "/images/gallery-2.jpg",
     alt: "Cozy lounge corner with textured carpet underfoot",
   },
   {
     id: "g3",
     category: "bioplanks" as const,
-    src: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80",
+    src: "/images/gallery-3.jpg",
     alt: "Sunlit hallway with warm plank flooring running lengthwise",
   },
   {
     id: "g4",
     category: "carpet-tile" as const,
-    src: "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=900&q=80",
+    src: "/images/gallery-4.jpg",
     alt: "Bedroom interior with soft floor covering and layered linens",
   },
   {
     id: "g5",
     category: "bioplanks" as const,
-    src: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&q=80",
+    src: "/images/gallery-5.jpg",
     alt: "Kitchen and dining space with durable plank-look flooring",
   },
   {
     id: "g6",
     category: "carpet-tile" as const,
-    src: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80",
+    src: "/images/gallery-6.jpg",
     alt: "Modern office nook with modular carpet tile flooring",
   },
 ];

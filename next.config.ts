@@ -1,14 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Images are served from /public/images — no remote Unsplash dependency on Vercel
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
-        pathname: "/**",
-      },
-    ],
+    formats: ["image/avif", "image/webp"],
   },
   turbopack: {
     rules: {
