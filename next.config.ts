@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Images are served from /public/images — no remote Unsplash dependency on Vercel
+  // Serve /public images directly — avoids broken Next image optimizer on Vercel
   images: {
-    formats: ["image/avif", "image/webp"],
+    unoptimized: true,
   },
   turbopack: {
     rules: {
@@ -14,5 +14,6 @@ const nextConfig: NextConfig = {
     },
   },
 };
+
 
 export default nextConfig;
